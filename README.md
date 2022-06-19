@@ -25,7 +25,7 @@
 <p>É um array com todos os parâmetros passados quando a função é invocada</p>
 <br>
 <h3>ARRAYS</h3>
-<p>Spread: uma forma de lidar separadamente com elementos</p>
+<h3>Spread: uma forma de lidar separadamente com elementos</h3>
 <p>O que era parte de um array, se torna uma parte independente</p>
 <p>function sum(x, y, z){</p>
 <p>        returna x + y + z;</p>
@@ -34,7 +34,7 @@
 <br>
 <p>console.log(sum(...numbers));</p>
 <br>
-<p>REST</p>
+<h3>REST</h3>
 <p>function confereTamanho(...args){</p>
 <p> console.log(args.length)</p>
 <p>}</p>
@@ -55,8 +55,8 @@
 <h1>Atividade 2: This</h1>
 <p>Dada a função calculaIdade, utilize os métodos call e apply para modificar o valor de this. Crie seus próprios objetos para esta atividade!</p>
 
-<p>function calculaIdade(anos) {</p>
-<p>	return `Daqui a ${anos} anos, ${this.nome} terá ${</p>
-<p>		this.idade + anos</p>
-<p>	} anos de idade.`;</p>
-<p>}</p>
+function calculaIdade(anos) {
+	return `Daqui a ${anos} anos, ${this.nome} terá ${
+		this.idade + anos
+	} anos de idade.`;
+}
